@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Soul Knife Demo",
-    "path":"Soul Knife Demo.yyp",
+    "name":"envitileset",
+    "path":"folders/envitileset.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

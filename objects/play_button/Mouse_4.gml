@@ -2,5 +2,6 @@
 event_inherited();
 
 //logic for procedural room generation eventually???
-roomgoto(simple16x9);
-
+roomgoto(Room2);
+instance_destroy(inst_71DBF5A3);
+instance_destroy(b);
