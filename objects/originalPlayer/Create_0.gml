@@ -3,7 +3,8 @@ global.currentPlayer = id
 isPlayer = true
 global.PlayerHighlightExisits = true;
 instance_create_layer(x, y, "Instances", PlayerObject)
-
+isOriginal = true
+isRat = false
 
 hsp = 0;
 vsp = 0;

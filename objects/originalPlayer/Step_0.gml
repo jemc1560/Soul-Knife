@@ -28,5 +28,5 @@ else
 }
 
 if (hp <= 0) {
-	instance_destroy();
+	room_goto(GameOver)
 }
