@@ -6,10 +6,31 @@ name = sprite_get_name(index);
 //get name of current spirte, parse it and then switch depending on direction
 var movement_x = key_right - key_left;
 var movement_y = key_down - key_up;
-//if(abs(movement_x) > abs(movement_y) {
-	//idk wtf key_right
-	
-//}
+if(movement_x > 0)
+{
+	image_xscale = 1
+	sprite_index = khile_side
+}
+else if(movement_x < 0)
+{
+	image_xscale = -1
+	sprite_index = khile_side
+}
+else if(movement_y > 0)
+{
+	image_xscale = 1
+	sprite_index = khile_down
+}
+else if(movement_y < 0)
+{
+	image_xscale = 1
+	sprite_index = khile_up
+}
+else
+{
+	image_xscale = 1
+	sprite_index = khile_main
+}
 
 if (hp <= 0) {
 	instance_destroy();

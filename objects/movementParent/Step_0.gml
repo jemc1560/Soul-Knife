@@ -6,7 +6,7 @@ key_down = keyboard_check(ord("S"))
 
 // Constant Related to Physics
 var movement_acceleration = 0.4;
-var maximum_speed = 3;
+var maximum_speed = 1.5;
 var movement_friction = 0.25;
 
 var movement_x = key_right - key_left;
@@ -42,9 +42,9 @@ if (movement_y != 0) {
 }
 hspeed = hsp;
 vspeed = vsp;
-if(speed > 3)
+if(speed > 1.5)
 {
-	speed = 3;
+	speed = 1.5;
 }
 
 //show_debug_message(speed)

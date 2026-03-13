@@ -1,8 +1,8 @@
 /// @description Establish key vars
 global.currentPlayer = id
 isPlayer = true
-global.SoulKnifeExists = true;
-instance_create_layer(x, y, "Instances", SoulKnife)
+global.PlayerHighlightExisits = true;
+instance_create_layer(x, y, "Instances", PlayerObject)
 
 
 hsp = 0;

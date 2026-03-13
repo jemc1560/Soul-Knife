@@ -3,7 +3,7 @@
   "%Name":"DoorEntrance",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"originalPlayer","path":"objects/originalPlayer/originalPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"rat_enemy","path":"objects/rat_enemy/rat_enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"DoorEntrance",
