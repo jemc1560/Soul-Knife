@@ -10,7 +10,7 @@ if (instance_exists(global.currentPlayer)){
 
 direction = global.currentPlayer.direction + 90
 
-image_angle = currentDirection - 90; 
+image_angle = currentDirection - 90;
 }
 else {
 	instance_destroy(PlayerObject); 
