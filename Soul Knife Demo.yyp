@@ -62,6 +62,7 @@
     {"id":{"name":"quit_button_sprite","path":"sprites/quit_button_sprite/quit_button_sprite.yy",},},
     {"id":{"name":"rat_attack","path":"sprites/rat_attack/rat_attack.yy",},},
     {"id":{"name":"rat_down","path":"sprites/rat_down/rat_down.yy",},},
+    {"id":{"name":"rat_main","path":"sprites/rat_main/rat_main.yy",},},
     {"id":{"name":"rat_side","path":"sprites/rat_side/rat_side.yy",},},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},},
     {"id":{"name":"SpawnerSprite","path":"sprites/SpawnerSprite/SpawnerSprite.yy",},},

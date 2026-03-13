@@ -4,6 +4,7 @@ isPlayer = false
 
 max_hp = 10;
 hp = max_hp;
+immunity = false
 frame_attack = 0
 
 timer = 0

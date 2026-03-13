@@ -1,6 +1,33 @@
 if(isPlayer)
 {	
 	event_inherited();
+	var movement_x = key_right - key_left;
+	var movement_y = key_down - key_up;
+	if(movement_x > 0)
+{
+	image_xscale = -.5
+	sprite_index = rat_side
+}
+else if(movement_x < 0)
+{
+	image_xscale = .5
+	sprite_index = rat_side
+}
+else if(movement_y > 0)
+{
+	image_xscale = .5
+	sprite_index = rat_down
+}
+else if(movement_y < 0)
+{
+	image_xscale = .5
+	sprite_index = rat_side
+}
+else
+{
+	image_xscale = .5
+	sprite_index = rat_main
+}
 }
 else
 {
@@ -42,7 +69,6 @@ else
 }
 if(hp <= 0) {
 	alarm[0] = 1;
-	
 }
 
 

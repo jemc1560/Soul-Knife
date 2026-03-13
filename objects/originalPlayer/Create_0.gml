@@ -9,5 +9,5 @@ hsp = 0;
 vsp = 0;
 
 
-max_hp = 100;
+max_hp = 3;
 hp = max_hp;
